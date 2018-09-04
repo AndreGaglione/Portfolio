@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url("Questrial_Regular/stylesheet.css");
+@import url("code128/stylesheet.css");
+/* CSS Document */
+
+
+html,
+body 
+{
+	height: 100%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+#name{
+	top: 20px;
+	left: 30px;
+	color: #EBEBEB;
+	position: absolute;
+}
+
+
+
+.title{
+	background-color: #E5E5E5;
+	width: 100%;
+	text-align: center;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	opacity: 0.66;
+	-webkit-box-shadow: 0 4px 24px 1px #000000;
+	box-shadow: 0 4px 24px 1px #000000;
+}
+
+.menu
+{
+    position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 60px;
+	z-index: 100;
+	opacity: 1;
+	background-color: black;
+
+}
+
+nav {
+	margin: 20px 0 0 0;
+}
+.navigation {
+	position: relative;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+}
+.navigation li{
+	display: inline-block;
+	padding: 0 50px 0 0;
+	color: #000000;
+}
+
+.slide
+{
+    width: 100%;
+    position: relative;
+    padding: 300px 0;
+    text-align: center;
+}
+
+
+#slide0,
+#slide2,
+#slide4,
+#slide6
+{
+	height: 100%;
+	background-color: #ffffff;
+	box-shadow: 0 18px 14px -14px rgba(0,0,0,0.6), 0 -18px 14px -14px rgba(0,0,0,0.6);
+	z-index: 10;
+	
+}
+
+#slide1
+{
+    height: 100%;
+    background-image:url('Images/Grafica/Vecchia_ritratto5000.png');
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	
+}
+ 
+#slide3
+{
+    background-image:url('Images/express_preview.png');
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+#slide5
+{
+    background-image:url('Images/Antibes.png');
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#nav{
+	margin-top: 0;
+	
+}
