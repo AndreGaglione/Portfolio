@@ -14,14 +14,24 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/courier-prime:n4,i4,i7:default.js" type="text/javascript"></script>
+
 </head>		
 <body>
 	
 <nav id="nav" class="navbar fixed-top navbar-light" style="background-color: #FFFFFF">
   <a class="navbar-brand" href="Homepage.html">
     <img src="Images/Grafica/Logo_round.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    Homepage
+    Andrea Gaglione
   </a>
+	<ul class="navbar-nav mr-auto mt-4 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" id="menu_tag">Menù <span class="sr-only">(current)</span></a>
+	 
+      </li>
+	</ul>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -49,35 +59,36 @@
 	
 	
 	<section class="slide" id="slide0" data-stellar-background-ratio="0.5">
- <h1>Benvenuto,</h1>
+ <h1 class="sentence">Benvenuto,</h1>
 		
 
-	<h3>Sono uno studente di Design della Comunicazione. </h3>
+	<h3 class="sentence">Sono uno studente di Design della Comunicazione. </h3>
 </section>
 	
 	<section class="slide" id="slide1" data-stellar-background-ratio="0.5">
- <h1 class="title">GRAFICA</h1>
+ <a href="Graphic.html" class="title">GRAFICA</a>
+		
 </section>
  
 <section class="slide" id="slide2" data-stellar-background-ratio="0.5">
- <h2>Provo sempre a spiegare ai miei amici cosa faccio.</h2>
+ <h2 class="sentence">Provo sempre a spiegare ai miei amici cosa faccio.</h2>
 
 </section>
  
 <section class="slide" id="slide3" data-stellar-background-ratio="0.5">
- <h1 class="title">GRAFFITI</h1>
+ <a href="Graffiti.html" class="title">GRAFFITI</a>
 	</section>
  
 <section class="slide" id="slide4" data-stellar-background-ratio="0.5">
-	<h1>Ma a nessuno interessa.</h1>
+	<h1 class="sentence">Ma a nessuno interessa.</h1>
 	</section>
  
 <section class="slide" id="slide5" data-stellar-background-ratio="0.5">
-	<h1 class="title">VIAGGI</h1>
+	<a href="Gallery.html" class="title">Viaggi</a>
 	</section>
  
 <section class="slide" id="slide6" data-stellar-background-ratio="0.5">
- <h1>Così ho creato questo sito.</h1>
+ <h1 class="sentence">Così ho creato questo sito.</h1>
 	
 	</section>
 	
@@ -95,7 +106,8 @@
 
           <!-- Content -->
           <h5 class="font-weight-bold text-uppercase mt-3 mb-4">RICORDA</h5>
-          <p>Un buon design è il miglior modo per presentarsi ai tuoi potenziali clienti. Non risparmiare sull'immagine!</p>
+          <p class="text-paragraph">"Ogni cambiamento sembra orrendo a prima vista."</p>
+		  <p class="quotes">Arther Bloch</p>		
 
         </div>
         <!-- Grid column -->
@@ -107,41 +119,35 @@
 
           <!-- Content -->
           <h5 class="font-weight-bold text-uppercase mt-3 mb-4">SEGUIMI</h5>
-			<p>Puoi seguirmi su instagram: <a href="https://www.instagram.com/oroc__k/?hl=it">@oroc__k</a></p>
-			<p>Puoi seguire ExpressPosse: <a href="https://www.instagram.com/express_posse/?hl=it">@express_posse</a></p>
+			<p class="text-paragraph">Puoi seguirmi su instagram: <a href="https://www.instagram.com/oroc__k/?hl=it">@oroc__k</a></p>
+						<p class="text-paragraph">Puoi seguire ExpressPosse su instagram: <a href="https://www.instagram.com/express_posse/?hl=it">@express_posse</a></p>
 
          
 
         </div>
         <!-- Grid column -->
 
-        <hr class="clearfix w-100 d-md-none">
-
-        <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
-
+  
      
 
-        </div>
-        <!-- Grid column -->
 
         <hr class="clearfix w-100 d-md-none">
 
         <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
+        <div class="col-md-4 mx-auto">
 
            <!-- Links -->
           <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Trova</h5>
 
           <ul class="list-unstyled">
             <li>
-              <a href="Graphic.html">Graphic</a>
+              <a class="text-paragraph" href="Graphic.html">Graphic</a>
             </li>
             <li>
-              <a href="Graffiti.html">Graffiti</a>
+              <a class="text-paragraph" href="Graffiti.html">Graffiti</a>
             </li>
             <li>
-              <a href="Gallery.html">Viaggi</a>
+              <a class="text-paragraph" href="Gallery.html">Viaggi</a>
             </li>
           </ul>
 
@@ -159,7 +165,7 @@
     <!-- Call to action -->
     <ul class="list-unstyled list-inline text-center py-2">
       <li class="list-inline-item">
-        <h5 class="mb-1">a.gaglione7@gmail.com</h5>
+        <h5 class="mb-1" class="text-paragraph">a.gaglione7@gmail.com</h5>
       </li>
       <li class="list-inline-item">
         <a href="#!" class="btn btn-danger btn-rounded">Contattami</a>

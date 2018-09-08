@@ -1,14 +1,12 @@
 @charset "UTF-8";
+@import url("Questrial_Regular/stylesheet.css");
+@import url("code128/stylesheet.css");
+@import url("code128/stylesheet.css");
+@import url("code128/stylesheet.css");
 /* CSS Document */
+
 .h3-responsive{
 	color: #000000;
-}
-
-body{
-	color: #000000;
-	font-family: montserrat;
-	font-style: normal;
-	font-weight: 400;	
 }
 
 .carousel-inner{
@@ -16,51 +14,20 @@ body{
 	height: 100%;
 	width: 100%;
 }
-#name{
-	top: 20px;
-	left: 30px;
-	color: black;
-	position: absolute;
-	
-}
 
 
-
-.title{
-	background-color: #E5E5E5;
-	width: 100%;
-	text-align: center;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	opacity: 0.66;
-	-webkit-box-shadow: 0 4px 24px 1px #000000;
-	box-shadow: 0 4px 24px 1px #000000;
-}
-
-.menu
-{
-	position: fixed;
-	top: 0px;
-	width: 100%;
-	height: 60px;
-	z-index: 100;
-
-	background-color: black;
-}
 
 nav {
 	margin: 20px 0 0 0;
 }
 .navigation {
-	list-style: none;
-	text-align: center;
-	margin: 0;
+	font-style: italic;
 }
 .navigation li{
 	display: inline-block;
-	padding: 0 50px 0 0;
-	color: #FFFFFF;
+	padding: 30 50px 0 0;
+	color: #CD1215;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 }
 
 .footer{
@@ -85,4 +52,47 @@ nav {
 #nav{
 	margin-top: 0;
 	
+}
+.text-uppercase{
+	text-align: center;
+	font-family: "Questrial Regular";
+	font-weight: bolder;
+	text-indent: 0;
+	font-size: x-large;	
+}
+.text-paragraph{
+	text-align: center;
+	font-family: "Questrial Regular";
+	white-space: normal;
+	vertical-align: baseline;
+	text-indent: 0;
+	line-height: 105%;
+}
+
+.list-unstyled{
+	text-align: center;	
+}
+
+.nav-link{
+	font-style: normal;
+	font-family: "Questrial Regular";
+	font-size: larger;
+	text-decoration: none;
+	text-align: center;
+}
+.navbar-brand{
+	font-family: "Questrial Regular";
+	font-style: normal;
+	text-align: center;
+	font-weight: 600;
+}
+.quotes{
+	font-family: "Questrial Regular";
+	text-align: right;
+	font-style: italic;
+	font-weight: bolder;
+}
+#menu_tag{
+	position: relative;
+	margin-left: 1080px;
 }

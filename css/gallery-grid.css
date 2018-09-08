@@ -1,3 +1,4 @@
+@import url("Questrial_Regular/stylesheet.css");
 body {
     background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
     min-height: 100vh;
@@ -14,18 +15,22 @@ body {
 }
 
 .gallery-container h1 {
-    text-align: center;
-    margin-top: 70px;
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: bold;
+	text-align: center;
+	margin-top: 70px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: 600;
+	font-style: normal;
+	font-variant: normal;
 }
 
 .gallery-container p.page-description {
-    text-align: center;
-    max-width: 800px;
-    margin: 25px auto;
-    color: #888;
-    font-size: 18px;
+	text-align: center;
+	max-width: 800px;
+	margin: 25px auto;
+	color: #4F4F4F;
+	font-size: 22px;
+	font-style: italic;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 
 .tz-gallery {
@@ -65,5 +70,8 @@ body {
 }
 .text{
 	text-align: center;
-	color: #000000;
+	color: #444444;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: italic;
+	font-weight: bold;
 }
