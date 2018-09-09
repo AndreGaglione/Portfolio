@@ -20,15 +20,6 @@
 nav {
 	margin: 20px 0 0 0;
 }
-.navigation {
-	font-style: italic;
-}
-.navigation li{
-	display: inline-block;
-	padding: 30 50px 0 0;
-	color: #CD1215;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-}
 
 .footer{
 	color: #FFFFFF;

@@ -97,7 +97,7 @@ nav {
     background-attachment: fixed;
 	
 }
- 
+
 #slide3
 {
     background-image:url('Images/express_preview.png');
@@ -165,8 +165,22 @@ nav {
 	font-family: "Questrial Regular";
 	font-weight: 700;
 	text-align: center;
+	position: relative;
 }
 #menu_tag{
 	position: relative;
 	margin-left: 1095px;
+}
+.arrow{
+	
+	margin-top: 124px;
+}
+
+.tenor-gif-embed{
+	position: absolute;
+	margin-top: 50px;
+	left: 50%;
+	margin-left: -200px;
+	
+	
 }
